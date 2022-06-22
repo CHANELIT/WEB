@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html{
+
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+html,
+body{
+
+min-height: 100vh;
+font-family: 'fascinate','cursive';
+font-family: 'lobster',cursive;
+font-family: 'Playfair Display',
+serif;
+}
+
+  
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+#Intro{
+    background-color: rosybrown;
+    padding-top: 45px;
+}
+
+#quien_soy{
+    text-decoration: violet;
+    background-color: slateblue;
+}
+
+#cosas_feliz{
+    text-decoration: violet;
+    background-color: thistle;
+}
+
+#cosas_enojar{
+    text-decoration: violet;
+    background-color: violet;
+}
+
+#unica{
+    background-color: thistle;
+}
+
+div{
+
+    margin:55px;
+    background-color: violet;
+}
+
+.full-screen{
+    min-height: 100vh;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#menu,li{
+    border:solid 1px palevioletred;
+    padding: 15px 10px;
+    flex-direction: column;
+}
+ul.menu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: aqua;
+}
