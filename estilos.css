@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -37,6 +38,7 @@ a {
     padding-top: 45px;
 }
 
+
 #quien_soy{
     text-decoration: violet;
     background-color: slateblue;
@@ -56,6 +58,30 @@ a {
     background-color: thistle;
 }
 
+#personalidad{
+    background-color:pink;
+}
+
+#inteligenciamultiples{
+    background-color:blue;
+}
+
+#misvirtudes{
+    background-color:purple;
+    text-decoration: crimson;
+}
+
+#metas{
+
+    background-color:darkcyan;
+    text-decoration: burlywood;
+}
+
+#agradecimientos{
+
+background-color:palevioletred;
+text-decoration: antiquewhite;
+}
 div{
 
     margin:55px;
@@ -83,3 +109,7 @@ ul.menu {
     justify-content: space-between;
     background-color: aqua;
 }
+ img{
+     width:45%;
+ }
+ 
